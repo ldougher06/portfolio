@@ -1,0 +1,56 @@
+
+/* ADD  */
+
+
+body {
+  background-color: #000000;
+}
+.container {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+/*div {
+  border: 1px solid red;
+}*/
+
+nav {
+  background-color: gold;
+}
+
+.photo {
+  padding-top: 100px;
+  background-color: #89abcd;
+  height: 690px;
+}
+
+.name {
+  font-family: "Lucida Console";
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.job, .skills, .portfolio, .about {
+  font-family: "Lucida Console";
+  font-size: large;
+}
+
+.skills {
+  background-color: #234567;
+  color: gold;
+}
+
+.portfolio {
+  background-color: #012345;
+}
+
+.about {
+  background-color: #89abcd;
+}
+
+.skills, .portfolio, .about {
+  border-top: 1px solid white;
+  color: gold;
+}
+
