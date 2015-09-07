@@ -9,15 +9,19 @@ html
     link(rel='stylesheet', type='text/css', href='styles/main.css')
   body
     nav.nav.navbar-fixed-top
-      .container.text-center
+      .container
         .navbar-header
-          a.navbar-brand(href='index.html') Logan Miller Dougher
+          a.navbar-brand.intro(href='index.html') Logan Miller Dougher
     // container
     .container.vertical-center.text-center
       .row.photo
-        h1.name Logan Miller Dougher
-        img.img-circle.img-responsive.center-block(src='https://en.gravatar.com/userimage/84454806/913ed59e3a8ccaea2c0184ec38e51b96.jpg?size=350')
+        h1.greeting Hello,
+        .logo.center-block
+          .middle_circle.center-block
+            .inner_circle.center-block
+              img.img-circle.img-responsive.center-block(src='https://en.gravatar.com/userimage/84454806/913ed59e3a8ccaea2c0184ec38e51b96.jpg?size=350')
         hr
+        h1.name I'm Logan Miller Dougher
         p.job Web Developer
         hr
       .row.skills

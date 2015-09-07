@@ -1,15 +1,7 @@
-
-/* ADD  */
-
-
-body {
-  background-color: #000000;
-}
 .container {
   width: 100%;
   box-sizing: border-box;
 }
-
 
 /*div {
   border: 1px solid red;
@@ -17,40 +9,46 @@ body {
 
 nav {
   background-color: gold;
+  border-bottom: 8px solid black;
 }
 
 .photo {
   padding-top: 100px;
-  background-color: #89abcd;
   height: 690px;
 }
 
-.name {
+.job, .greeting {
   font-family: "Lucida Console";
   font-weight: bold;
   font-size: x-large;
 }
 
-.job, .skills, .portfolio, .about {
+.name, .skills, .portfolio, .about, .intro {
   font-family: "Lucida Console";
   font-size: large;
-}
-
-.skills {
-  background-color: #234567;
-  color: gold;
-}
-
-.portfolio {
-  background-color: #012345;
-}
-
-.about {
-  background-color: #89abcd;
+  color: black;
 }
 
 .skills, .portfolio, .about {
   border-top: 1px solid white;
-  color: gold;
+}
+
+.logo {
+  border: 10px solid black;
+  width: 300px;
+  height: 300px;
+  background-color: gold;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.inner_circle {
+  margin-top: 15px;
+  margin-left: 15px;
+  border: 8px solid white;
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
 }
 
