@@ -3,6 +3,12 @@ module.exports = function(grunt) {
   require('load-grunt-tasks')(grunt);
 
   grunt.initConfig({
+  'gh-pages': {
+      options: {
+        base: 'public'
+      },
+      src: ['**']
+    },
     pkg: grunt.file.readJSON('package.json'),
     autoprefixer: {
       main: {
@@ -168,7 +174,7 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask('default', []);
+  grunt.registerTask('deploy', ['gh-pages']);
   grunt.registerTask('build', [
     'clean',
     'copy',

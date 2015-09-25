@@ -42,5 +42,8 @@
     "nodemon": "^1.4.1",
     "uglify": "^0.1.5",
     "wiredep": "^2.2.2"
+  },
+  "devDependencies": {
+    "grunt-gh-pages": "^0.10.0"
   }
 }

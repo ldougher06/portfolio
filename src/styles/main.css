@@ -1,5 +1,6 @@
 .container {
   width: 100%;
+  overflow: hidden;
   box-sizing: border-box;
 }
 
@@ -9,12 +10,22 @@
 
 nav {
   background-color: gold;
-  border-bottom: 8px solid black;
+  border-bottom: 2px solid black;
+  width: 100%;
 }
 
 .photo {
   padding-top: 100px;
   height: 690px;
+  background: url('http://www.excelsusphoto.com/sites/www.excelsusphoto.com/files/nashvilleskyline2%20preview.jpg') no-repeat top center fixed;
+  background-size: cover;
+}
+
+.nameJob {
+  background-color: #ffdf00;
+  opacity: .8;
+  border: 1.5px solid black;
+  margin-top: 45px;
 }
 
 .job, .greeting {
@@ -29,7 +40,7 @@ nav {
   color: black;
 }
 
-.skills, .portfolio, .about {
+.skills, .portfolio {
   border-top: 1px solid white;
 }
 
@@ -43,12 +54,24 @@ nav {
   border-radius: 50%;
 }
 
+.topics {
+  margin-left: 15%;
+  margin-right: 15%;
+ }
+
+.topics img {
+  height: 200px;
+  width: 200px;
+}
+
+
 .inner_circle {
   margin-top: 15px;
   margin-left: 15px;
   border: 8px solid white;
   width: 90%;
   height: 90%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
   border-radius: 50%;
 }
-

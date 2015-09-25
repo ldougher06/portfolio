@@ -12,6 +12,12 @@ html
       .container
         .navbar-header
           a.navbar-brand.intro(href='index.html') Logan Miller Dougher
+        .nav.navbar-right
+          ul.nav.navbar-nav.navbar-right
+            li
+              a(href='http://www.github.com/ldougher06') GitHub
+            li
+              a(href='http://www.linkedin.com/in/logandougher') LinkedIn
     // container
     .container.vertical-center.text-center
       .row.photo
@@ -19,45 +25,64 @@ html
         .logo.center-block
           .middle_circle.center-block
             .inner_circle.center-block
-              img.img-circle.img-responsive.center-block(src='https://en.gravatar.com/userimage/84454806/913ed59e3a8ccaea2c0184ec38e51b96.jpg?size=350')
-        hr
-        h1.name I'm Logan Miller Dougher
-        p.job Web Developer
-        hr
-      .row.skills
-        hr
-        h2 SKILLS
-        hr
-        .row.topics
-          .col-md-4.col-sm-6
-           h4 TECHNOLOGIES
-           h5 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          .col-md-4.col-sm-6
-           h4 STACK
-           h5 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          .col-md-4.col-sm-6
-           h4 WORK
-           h5 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
+              img.img-circle.img-responsive(src='../assets/nss_headshot.png')
+        .nameJob
+          h1.name I'm Logan Miller Dougher
+          p.job Web Developer
       .row.portfolio
         hr
         h2 PROJECTS
         hr
-        .col-md-3.col-sm-6.github
-          a(href='https://github.com/ldougher06')
-            img.img-responsive.img-circle.github(src='https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png')
-        .col-md-3.col-sm-6.resume
-          a(href='#')
-            img.img-responsive.img-circle.resume(src='https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png')
-        .col-md-3.col-sm-6.capstone1
-          a(href='#')
-            img.img-responsive.img-circle.capstone1(src='https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png')
-        .col-md-3.col-sm-6.capstone2
-          a(href='#')
-            img.img-responsive.img-circle.capstone2(src='https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png')
-      .row.about
+        .col-md-6.col-sm-6.capstone1
+          a(href='https://github.com/ldougher06/capstone-minotaur')
+            h3 Minotaur vs Robots
+            //- img.img-responsive.img-circle(src='../assets/capstone1.png')
+        .col-md-6.col-sm-6.capstone2
+          a(href='https://github.com/ldougher06/orator')
+            h3 Overton Orator
+            //- img.img-responsive.img-circle(src='http://www.nathanbeaver.com/wp-content/uploads/2009/09/bigo.jpg')
+      .row.skills
         hr
-        h2 ABOUT
+        h2 SKILLS
         hr
-        h3
-          | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        .row.topics.center-block
+          .col-lg-3.col-sm-6
+            img.img-responsive(src='http://wdcmobile.com/images/html5.png')
+          .col-lg-3.col-sm-6
+            img.img-responsive(src='/assets/angular.png')
+          .col-lg-3.col-sm-6
+            img.img-responsive(src='/assets/bootstrap.png')
+          .col-lg-3.col-sm-6
+            img.img-responsive(src='/assets/chai.png')
+          .col-lg-3.col-sm-6
+            img.img-responsive(src='/assets/css-icon.png')
+          .col-lg-3.col-sm-6
+            img.img-responsive(src='/assets/express_logo.png')
+          .col-lg-3.col-sm-6
+            img.img-responsive(src='/assets/GitHub.png')
+          .col-lg-3.col-sm-6
+            img.img-responsive(src='/assets/grunt_logo.png')
+          .col-lg-3.col-sm-6
+            img.img-responsive(src='/assets/gulp_logo.png')
+          .col-lg-3.col-sm-6
+            img.img-responsive(src='/assets/jade_logo.png')
+          .col-lg-3.col-sm-6
+            img.img-responsive(src='/assets/jquery_logo.png')
+          .col-lg-3.col-sm-6
+            img.img-responsive(src='/assets/mongodb_logo.png')
+          .col-lg-3.col-sm-6
+            img.img-responsive(src='/assets/postgresql_logo.png')
+          .col-lg-3.col-sm-6
+            img.img-responsive(src='/assets/sass_logo.png')
+          .col-lg-3.col-sm-6
+            img.img-responsive(src='/assets/nodejs.png')
+          .col-lg-3.col-sm-6
+            img.img-responsive(src='/assets/json_logo.png')
+           //h4 STACK
+           //h5 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          //.col-lg-3.col-sm-6
+           //h4 WORK
+           //h5 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js')
+    script(href='../js/main.js')
