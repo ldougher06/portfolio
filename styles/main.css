@@ -40,7 +40,7 @@ nav {
   color: black;
 }
 
-.skills, .portfolio, .about {
+.skills, .portfolio {
   border-top: 1px solid white;
 }
 
@@ -64,6 +64,7 @@ nav {
   width: 200px;
 }
 
+
 .inner_circle {
   margin-top: 15px;
   margin-left: 15px;
@@ -73,9 +74,4 @@ nav {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-}
-
-.portfolio img {
-  height: 300px;
-  width: 300px;
 }
