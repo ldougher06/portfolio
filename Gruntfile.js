@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
 
-  require('load-grunt-tasks')(grunt);
-
+  //require('load-grunt-tasks')(grunt);
+  grunt.loadNpmTasks('grunt-gh-pages');
   grunt.initConfig({
   'gh-pages': {
       options: {
@@ -13,7 +13,7 @@ module.exports = function(grunt) {
     autoprefixer: {
       main: {
         options: ['>1% in US'],
-        src: 'public/css/main.css'
+        src: 'public/styles/main.css'
       }
     },
     babel: {
@@ -43,8 +43,8 @@ module.exports = function(grunt) {
     },
     bower_concat: {
       main: {
-        dest: 'public/lib/build.js',
-        cssDest: 'public/lib/build.css'
+        dest: 'public/js/main.js',
+        cssDest: 'public/styles/main.css'
       }
     },
     clean: ['public'],
@@ -79,7 +79,7 @@ module.exports = function(grunt) {
     cssmin: {
       main: {
         files: {
-          'public/lib/build.css': 'public/lib/build.css'
+          'public/styles/main.css': 'public/stlyes/main.css'
         }
       }
     },
@@ -132,7 +132,7 @@ module.exports = function(grunt) {
     uglify: {
       bower: {
         files: {
-          'public/lib/build.js': 'public/lib/build.js'
+          'public/js/main.js': 'public/js/main.js'
         }
       },
       main: {
@@ -153,7 +153,7 @@ module.exports = function(grunt) {
         },
 
         files: [
-          'public/css/main.css',
+          'public/styles/main.css',
           'public/js/**/*.js',
           'public/**/*.html'
         ]

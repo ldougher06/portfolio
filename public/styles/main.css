@@ -49,8 +49,6 @@ nav {
   width: 300px;
   height: 300px;
   background-color: gold;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
   border-radius: 50%;
 }
 
@@ -71,7 +69,5 @@ nav {
   border: 8px solid white;
   width: 90%;
   height: 90%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
   border-radius: 50%;
 }
