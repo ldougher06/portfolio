@@ -18,6 +18,10 @@ nav li:last-child {
   margin-right: 25px;
 }
 
+.footer {
+  border-top: 1px solid black;
+}
+
 .photo {
   padding-top: 100px;
   height: 690px;
@@ -38,7 +42,7 @@ nav li:last-child {
   font-size: x-large;
 }
 
-.name, .skills, .portfolio, .about, .intro {
+.name, .skills, .portfolio, .about, .intro, .footer {
   font-family: "Lucida Console";
   font-size: large;
   color: black;
